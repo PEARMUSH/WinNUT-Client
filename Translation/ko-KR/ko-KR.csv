@@ -1,0 +1,159 @@
+Status,Translator,Message,Translation
+,PEARMUSH,About,정보
+,PEARMUSH,Activate automatic connection / reconnection,자동 접속 활성화 / 자동 재접속 활성화
+,PEARMUSH,Additional grace period limit.Accepted value: Numeric value from 0 to 3600.,유예 시간 추가 한도.입력가능한 범위: 0초에서 3600초.
+,PEARMUSH,Alert,주의
+,PEARMUSH,Allow additional time during the shutdown procedure.Note: This additional time could go beyond the UPS backup time - USE WITH CAUTION!!!,종료 절차동안 추가 유예 시간을 허용합니다.주의: 이 추가 시간은 UPS 백업 시간을 초과할 수 있습니다 - 주의하여 사용하세요!!!
+,PEARMUSH,Allow Extended Shutdown Time,종료 시간 연장 허용
+,PEARMUSH,Application shut down at,응용프로그램이 다음에서 중지됨
+,PEARMUSH,Apply,적용
+,PEARMUSH,Automatic Reconnection,자동 재접속
+,PEARMUSH,Battery Charge,배터리 충전량
+,PEARMUSH,Battery OK,배터리 정상
+,PEARMUSH,Battery Voltage,배터리 전압
+,PEARMUSH,Battery_Charge : {0} Remaining Time : {1},배터리 충전량 : {0} 남은 시간 : {1}
+,PEARMUSH,Battery_Charge : {WinNUT.UPS_BattCh} Remaining Time : {WinNUT.Lbl_VRTime.Text},배터리 충전량 : {WinNUT.UPS_BattCh} 남은 시간 : {WinNUT.Lbl_VRTime.Text}
+,PEARMUSH,Calibration,보정
+,PEARMUSH,Cancel,취소
+,PEARMUSH,Cancellation of the Extinguishing Process,종료 과정 취소
+,PEARMUSH,Check for updates.,업데이트 확인
+,PEARMUSH,Checks for updates at startup.,부팅후 업데이트 확인
+,PEARMUSH,Clear,초기화
+,PEARMUSH,Close,닫기
+,PEARMUSH,Close to Systray,시스템 트레이로 최소화
+,PEARMUSH,Conditions met for launching the Extinguishing Process,종료 과정 시작을 위한 조건 충족
+,PEARMUSH,Connected,연결됨
+,PEARMUSH,Connection,연결
+,PEARMUSH,Connection to Nut Host {0}:{1} Established,Nut 호스트 {0}:{1} 로 연결됨
+,PEARMUSH,Connection to Nut Host {0}:{1} Failed: {2},Nut 호스트 {0}:{1} 연결실패
+,PEARMUSH,Copy,복사
+,PEARMUSH,Create a log file (WinNUT-client.log file in the WinNUT installation directory).,로그 파일 생성 (WinNUT-client.log 파일은 WinNUT 설치 폴더내에 있습니다).
+,PEARMUSH,Create LogFile,로그파일 생성
+,PEARMUSH,Daily,매일
+,PEARMUSH,Debug,디버그
+,PEARMUSH,Delay Between Verification,업데이트 확인 주기
+,PEARMUSH,Delay to Shutdown (sec),종료 지연시간 (초)
+,PEARMUSH,Delete log file.,로그파일 삭제
+,PEARMUSH,Description :,설명 :
+,PEARMUSH,Devellopement,개발버전
+,PEARMUSH,Disconnect,연결종료
+,PEARMUSH,Disconnected from Nut Host,Nut 호스트에 의해 연결종료됨
+,PEARMUSH,Download New Version from :,새 버전 다운로드 :
+,PEARMUSH,Error,에러
+,PEARMUSH,Exit,종료
+,PEARMUSH,Extinction In Progress,종료 진행중
+,PEARMUSH,File,파일
+,PEARMUSH,Firmware :,펌웨어 :
+,PEARMUSH,Frequency,주파수
+,PEARMUSH,Frequency of verification.,검증 빈도
+,PEARMUSH,Frequency Supply,공급 주파수
+,PEARMUSH,Grace Delay to Shutdown (sec),추가 종료 지연시간 (초)
+,PEARMUSH,Grace Time,추가 시간
+,PEARMUSH,Help,도움말
+,PEARMUSH,Hibernate,최대 절전 모드
+,PEARMUSH,Hide ChangeLog,변경기록 숨기기
+,PEARMUSH,Immediate Shutdown,즉시 종료
+,PEARMUSH,Immediate stop action,즉시 정지
+,PEARMUSH,Import Ini File (v1.x),Ini 파일 불러오기 (v1.x)
+,PEARMUSH,Indicates whether a shutdown should be performed when the NUT server signals a forced shutdown (FSD = Force ShutDown),NUT 서버가 강제 종료 신호를 보낼 때 시스템 종료여부를 나타냅니다. (FSD = 강제 종료)
+,PEARMUSH,Input Frequency,입력 주파수
+,PEARMUSH,Input Voltage,입력 전압
+,PEARMUSH,Item Properties,아이템 변수
+,PEARMUSH,List UPS Variables,UPS 변수 나열
+,PEARMUSH,Log file log level,로그 파일 기록 수준
+,PEARMUSH,Logging level,기록 수준
+,PEARMUSH,Logging level.,기록 수준.
+,PEARMUSH,Login,로그인
+,PEARMUSH,Login credentials to the Nut server (leave blank if not required),Nut 서버 접속을 위한 로그인 정보입력 (필요없으면 칸을 비워두세요)
+,PEARMUSH,Lost Connect To {0}:{1}, {0}:{1} 에서 연결 끊어짐
+,PEARMUSH,Low Battery,배터리 부족
+,PEARMUSH,Lower backup time limit triggering the shutdown procedure. Accepted value: Numeric value from 0 to 3600.,종료 과정을 진행할 최소 백업 시간. 입력가능 범위: 0에서 3600.
+,PEARMUSH,Lower limit of the battery level triggering the shutdown procedure. Accepted value: Numeric value from 0 to 100.,종료 과정을 진행할 최소 배터리 레벨. 입력가능 범위: 0에서 100.
+,PEARMUSH,Manufacturer :,제조사 :
+,PEARMUSH,Max,최대값
+,PEARMUSH,Max Retry reached. Wait for manual Reconnection,재시도 최대 횟수에 도달함. 수동 재접속 대기중
+,PEARMUSH,Maximum Battery Voltage. Accepted value: Numeric value from 0 to 100.,최대 배터리 전압. 입력가능 범위: 0에서 100.
+,PEARMUSH,Maximum input frequency. Accepted value: Numeric value from 0 to 100.,최대 입력 주파수. 입력가능 범위: 0에서 100.
+,PEARMUSH,Maximum input voltage. Accepted value: Numeric value from 0 to 999.,최대 입력 전압. 입력가능 범위: 0에서 999.
+,PEARMUSH,Maximum Load Level of the UPS. Accepted value: Numeric value from 0 to 100.,UPS 최대 로드 범위. 입력가능 범위: 0에서 100.
+,PEARMUSH,Maximum Output Voltage. Accepted value: Numeric value from 0 to 999.,최대 출력 전압. 입력가능 범위: 0에서 999.
+,PEARMUSH,Min,최소값
+,PEARMUSH,Minimize to Systray,시스템 트레이로 최소화
+,PEARMUSH,Minimum Battery Voltage. Accepted value: Numeric value from 0 to 100.,최소 배터리 전압. 입력가능 범위: 0에서 100.
+,PEARMUSH,Minimum Charge Level of the UPS. Accepted value: Numeric value from 0 to 100.,UPS 최소 충전 범위. 입력가능 범위: 0에서 100.
+,PEARMUSH,Minimum input frequency. Accepted value: Numeric value from 0 to 100.,최소 입력 주파수. 입력가능 범위: 0에서 100.
+,PEARMUSH,Minimum input voltage. Accepted value: Numeric value from 0 to 999.,최소 입력 전압. 입력가능 범위: 0에서 999.
+,PEARMUSH,Minimum Output Voltage. Accepted value: Numeric value from 0 to 999.,최소 출력 전압. 입력가능 범위: 0에서 999.
+,PEARMUSH,Miscellanous,기타옵션
+,PEARMUSH,Monthly,매월
+,PEARMUSH,Name :,이름 :
+,PEARMUSH,No Update Available,업데이트 없음
+,PEARMUSH,Not Connected,연결되지 않음
+,PEARMUSH,Notice,공지사항
+,PEARMUSH,NUT host,NUT 주소
+,PEARMUSH,NUT Port,NUT 포트
+,PEARMUSH,Nut server address. Accepted value: IPV4 / IPV6 / FQDN address.,Nut 서버 주소. 입력가능 형태: IPV4 / IPV6 / 도메인 주소.
+,PEARMUSH,Nut Server Port Number (default = 3493). Accepted value: Numeric value from 1 to 65535.,Nut 서버 포트 번호 (기본값 = 3493). 입력가능 범위: 1에서 65535.
+,PEARMUSH,Ok,확인
+,PEARMUSH,Old ups.ini imported,오래된 ups.ini 불러옴
+,PEARMUSH,Old ups.ini imported Ini File Moved to {0}.old,오래된 ups.ini 불러옴 Ini 파일 {0}.old로 이동함
+,PEARMUSH,On Battery ({0}%),배터리 사용중 ({0}%)
+,PEARMUSH,On Line,전원 사용중
+,PEARMUSH,Open the log file.,로그 파일 열기.
+,PEARMUSH,Options,옵션
+,PEARMUSH,Output Voltage,출력 전압
+,PEARMUSH,Password,비밀번호
+,PEARMUSH,Polling Interval,동기화 주기
+,PEARMUSH,Reconnect,재접속
+,PEARMUSH,Reconnection In Progress,재접속 시도중
+,PEARMUSH,Reduced to the taskbar or Systray.,작업표시줄 및 트레이로 축소됨.
+,PEARMUSH,Re-establish connection,연결 재설정
+,PEARMUSH,Reload,다시 불러오기
+,PEARMUSH,Remaining Time :,남은 시간 :
+,PEARMUSH,Restarting WinNUT after waking up from Windows.,윈도우에서 깨어난 후 WinNUT를 다시 실행합니다.
+,PEARMUSH,Sends in Systray at closing.,창을 닫을 때 시스템 트레이로 전송합니다.
+,PEARMUSH,Serial :,일련번호 :
+,PEARMUSH,Sets the input frequency if not supplied by the UPS.,UPS에서 입력 전압값이 제공되지 않을 경우 입력 전압값을 설정하세요.
+,PEARMUSH,Settings,설정
+,PEARMUSH,Show ChangeLog,변경기록 보기
+,PEARMUSH,Shutdown,종료
+,PEARMUSH,Shutdown if battery lower than,배터리 범위가 설정값보다 낮으면 종료
+,PEARMUSH,Shutdown if runtime lower than (sec),남은시간이 설정값보다 낮으면 종료 (초)
+,PEARMUSH,Shutdown on Nut's FSD Signal,Nut FSD 신호 수신 시 종료
+,PEARMUSH,Shutdown Options,종료 옵션
+,PEARMUSH,Sleep,절전
+,PEARMUSH,Stable,정식버전
+,PEARMUSH,Stable Or Dev Branch,버전 선택
+,PEARMUSH,Start Minimized,최소화하여 시작
+,PEARMUSH,Start with Windows,윈도우 시작시에 시작
+,PEARMUSH,Starts the shutdown procedure immediately or timed.,종료 절차를 즉시 혹은 시간계획에 따라 진행
+,PEARMUSH,Starts WinNut Minimized.,WinNut를 최소화하여 실행합니다.
+,PEARMUSH,Starts WinNUT when Windows starts.,윈도우 부팅시에 WinNUT도 함께 실행합니다.
+,PEARMUSH,Stop condition imposed by the NUT server,NUT 서버에 의해 설정된 정지 조건
+,PEARMUSH,Stop procedure delay if delayed. Accepted value: Numeric value from 0 to 3600.,입력 값 만큼 정지 절차를 지연시킵니다. 입력가능 범위: 0에서 3600
+,PEARMUSH,Time between each update of UPS data (default = 5).Accepted value: Numerical value from 1 to 60 seconds.,UPS 정보 갱신 시간 (기본값 = 5).입력가능 범위: 1초에서 60초.
+,PEARMUSH,Try {0} of {1}, 시도 {0} of {1}
+,PEARMUSH,Try Reconnect {0} / {1},재접속 시도 {0} / {1}
+,PEARMUSH,Type of Stop,정지 유형
+,PEARMUSH,Type of stop at the end of the stop procedure.,정지 절차에서 사용할 정지 유형을 선택하세요.
+,PEARMUSH,Unknown UPS Name,알 수 없는 UPS 이름
+,PEARMUSH,Update,업데이트
+,PEARMUSH,Update Available : Version {0},업데이트 사용가능 : 버전 {0}
+,PEARMUSH,Update WinNUT-Client Now? Ok to Close WinNut and Install New Version Cancel to Save Msi and Install Later,WinNUT-Client를 지금 업데이트 하시겠습니까? 확인 버튼을 눌러서 WinNut를 업데이트 하거나 취소 버튼을 눌러서 나중에 업데이트 할 수 있습니다.
+,PEARMUSH,UPS Battery Low,UPS 배터리 부족
+,PEARMUSH,UPS Load,UPS 부하
+,PEARMUSH,UPS Name,UPS 이름
+,PEARMUSH,UPS name to monitor. Accepted Value: Name of the UPS configured in the Nut server.,모니터링할 UPS 이름. 입력해야하는 값: Nut 서버에 설정되어 있는 UPS 이름
+,PEARMUSH,UPS On Battery,UPS 배터리 사용중
+,PEARMUSH,UPS On Line,UPS 전원 입력중
+,PEARMUSH,UPS Overload,UPS 과부화
+,PEARMUSH,UPS Variable,UPS 변수
+,PEARMUSH,Use the Stable or Devellop branch during verification.,업데이트할 버전을 선택하세요.
+,PEARMUSH,Value :,값 :
+,PEARMUSH,Verify Update,업데이트 확인
+,PEARMUSH,Verify Update At Start,시작 시 업데이트 확인
+,PEARMUSH,Version {0} Available,버전 {0} 사용가능
+,PEARMUSH,Weekly,매주
+,PEARMUSH,WinNut Preferences Changed,WinNut 설정 변경됨
+,PEARMUSH,Windows standby, WinNUT will disconnect.,윈도우 대기중, WinNUT의 연결이 종료됩니다.
+,PEARMUSH,Wrong Login ID (Username or Password),잘못된 로그인 정보 (아이디 및 비밀번호)
