@@ -25,7 +25,7 @@ Status,Translator,Message,Translation
 ,PEARMUSH,Connected,연결됨
 ,PEARMUSH,Connection,연결
 ,PEARMUSH,Connection to Nut Host {0}:{1} Established,Nut 호스트 {0}:{1} 로 연결됨
-,PEARMUSH,Connection to Nut Host {0}:{1} Failed: {2},Nut 호스트 {0}:{1} 연결실패
+,PEARMUSH,Connection to Nut Host {0}:{1} Failed: {2},Nut 호스트 {0}:{1} 연결실패: {2}
 ,PEARMUSH,Copy,복사
 ,PEARMUSH,Create a log file (WinNUT-client.log file in the WinNUT installation directory).,로그 파일 생성 (WinNUT-client.log 파일은 WinNUT 설치 폴더내에 있습니다).
 ,PEARMUSH,Create LogFile,로그파일 생성
@@ -45,7 +45,7 @@ Status,Translator,Message,Translation
 ,PEARMUSH,File,파일
 ,PEARMUSH,Firmware :,펌웨어 :
 ,PEARMUSH,Frequency,주파수
-,PEARMUSH,Frequency of verification.,검증 빈도
+,PEARMUSH,Frequency of verification.,확인 빈도
 ,PEARMUSH,Frequency Supply,공급 주파수
 ,PEARMUSH,Grace Delay to Shutdown (sec),추가 종료 지연시간 (초)
 ,PEARMUSH,Grace Time,추가 시간
